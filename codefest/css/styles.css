@@ -32,8 +32,10 @@ body {
     }
 
     /* Contenido principal */
-    .content {
-      margin-left: 240px;
+    .contentCodefest {
+      background-image: url('fondocode.jpg');
+      margin-left: 50px;
+      text-align: center;
       padding: 20px;
       flex: 1;
     }
@@ -46,13 +48,13 @@ body {
       color: #2c3e50;
     }
 
-    h1{
-    background-color: lightblue;
-    color: white;
-    text-align: center;
-} fondo azul y la etiqueta H2 a fondo rojo. Si ves que el texto y el fondo tienen poco contraste, prueba a poner el color del texto en blanco.
-En las etiquetas P, cambia el tipo de letra, su tamaño algo mayor y en negrita, Céntralas también. 
-La lista desordenada en cursiva y sombra roja.
-La lista ordenada, con algo de sombra azul.
-La etiqueta H2 con la letra un poco transparente.
+  .enlaces-internos {
+      text-align: left;
+      margin-bottom: 20px;
+    }
 
+    table {
+      width: 100%;
+      margin-bottom: 20px;
+      align-items: center;
+    }

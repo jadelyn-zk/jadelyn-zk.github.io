@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+     <!-- Menú lateral -->
+  <div class="sidebar">
+   <a href="cartel.html">Cartel</a>
+<a href="localizacion.html">Localizacion</a>
+<a href="entradas.html">Entradas</a>
+<br>
+<a href="..\index.html"><b>Volver al Inicio</b></a>
+</div>
+
+<div class="contentCodefest">
+     <header>
+        <h1>CODEFEST</h1>
+        <h2>Formulario entradas</h2>
+    </header>
+
+    
+    <main>
+        <form action="https://www.w3schools.com/action_page.php" method="post">
+            <fieldset>
+                <legend>Datos Personales</legend>
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Nombre y Apellidos" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Tipo de Entrada</legend>
+                <div class="radio-group">
+                    <input type="radio" id="general" name="tipo_entrada" value="general">
+                    <label for="general">Abono General (3 Días)</label>
+                </div>
+                <div class="radio-group">
+                    <input type="radio" id="vip" name="tipo_entrada" value="vip">
+                    <label for="vip">Abono VIP (3 Días)</label>
+                </div>
+                <div class="radio-group">
+                    <input type="radio" id="dia" name="tipo_entrada" value="dia">
+                    <label for="dia">Entrada de Día</label>
+                </div>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Extras</legend>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="camping" name="extras" value="camping">
+                    <label for="camping">Camping</label>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="merchandising" name="extras" value="merchandising">
+                    <label for="merchandising">Pack Merchandising</label>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="talleres" name="extras" value="talleres">
+                    <label for="talleres">Acceso a Talleres Tech</label>
+                </div>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Día (Solo si es Entrada de Día)</legend>
+                <div class="form-group">
+                    <label for="dia_entrada">Selecciona el día:</label>
+                    <select id="dia_entrada" name="dia_entrada">
+                        <option value="viernes">Viernes</option>
+                        <option value="sabado">Sábado</option>
+                        <option value="domingo">Domingo</option>
+                    </select>
+                </div>
+            </fieldset>
+            
+            <button type="submit">Enviar Solicitud</button>
+        </form>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 CodeFest. Todos los derechos reservados.</p>
+    </footer>
+</div>
+</body>
+</html>
