@@ -1,0 +1,49 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+    background-color: #007bff;
+    padding: 20px;
+    border-radius: 10px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+nav a:hover {
+    color: #ffdd57;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    margin: 10px;
+    }
+
+.table {
+    display: table;
+    border-collapse: collapse;
+    margin: auto;
+    border: 1px solid black;
+    width: 50%;
+    text-align: center;
+}
+.row {
+    display: table-row;
+}
+.cell {
+    display: table-cell;
+    border: 1px double;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+
+    
+

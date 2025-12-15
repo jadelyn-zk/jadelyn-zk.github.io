@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<h1>Pruebas CSS</h1>
+<p>Este es un párrafo de prueba para verificar la aplicación de estilos CSS.</p>
+
+<div class="responsive-table">
+    <div class="table-row">
+        <div class="table-cell">Celda 1</div>
+        <div class="table-cell">Celda 2</div>
+        <div class="table-cell">Celda 3</div>
+    </div>
+    <div class="table-row">
+        <div class="table-cell">Celda 1</div>
+        <div class="table-cell">Celda 2</div>
+        <div class="table-cell">Celda 3</div>
+    </div>
+</div>
+<br>
+        <style>
+            #p1{
+                font-style: italic;
+                text-align: right;
+            }
+
+            #p2{
+                text-transform: uppercase;
+                text-decoration: line-through;
+            }
+
+            #p3{
+                font-family: Helvetica;
+                font-size: 120%;
+            }
+
+            #p4{
+                font-weight: bold;
+                text-shadow: -4px 4px 4px green;
+            }
+
+            .flex-container{
+                display: flex;
+                border-top: 2px solid black;
+            }
+
+            .contenedor{
+                height: 200px;
+                width: 400px;
+                border-radius: 20px;
+                margin-top: 10px;
+                display: flex;
+                padding: 5px;
+            }
+
+            #cont1{
+                background-color: lightgreen;
+                display: flex;
+                text-wrap: wrap;
+            }
+
+            #cont2{
+                background-color: lightblue;
+                flex-direction: column;
+            }
+
+            #cont3{
+            background-color: plum;
+            display: flex;
+            flex-wrap: wrap;
+            }
+
+            .enl{
+                width: 100px;
+                height: 50px;
+            }
+
+            #duck, #face{
+                background-color: brown;
+            }
+
+            #eco, #twi{
+                background-color: darkgreen;
+            }
+
+            #google, #pin{
+                background-color: darkblue;
+            }
+
+            a{
+                color: aliceblue;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>CSS Ejercicio 1</h1>
+        <p id="p1">Este es el parrafo numero 1, en cursiva y alineado a la derecha</p>
+        <p id="p2">Este tambien es un parrafo en minusculas pero convertido en mayusculas y tachado</p>
+        <p id="p3">Como no hay dos sin tres, este sera el tercero con un tipo de letra diferente y un 20% mas grande</p>
+        <p id="p4">Y por ultimo, un texto en negrita y con combrita en verde</p>
+        
+        <div class="flex-container">
+            <div class="contenedor" id="cont1">
+                <p>Buscadores:</p>
+                <div class="enl" id="duck"><a href="">DuckDuckGo</a></div>
+                <div class="enl" id="eco"><a href="">Ecosia</a></div>
+                <div class="enl" id="google"><a href="">Google</a></div>
+            </div>
+            <div class="contenedor" id="cont2">
+                <p>Redes sociales:</p>
+                <div class="enl" id="face"><a href="">Facebook</a></div>
+                <div class="enl" id="twi"><a href="">Twitter</a></div>
+                <div class="enl" id="pin"><a href="">Pinterest</a></div>
+            </div>
+            <div class="contenedor" id="cont3">
+                <p>Noticias:
+                <div id="noticia"><a href="">El Pais</a></div>
+                <div id="noticia"><a href="">El Diario</a></div>
+                <div id="noticia"><a href="">El Mundo</a></div>
+            </div>
+        </div>
+
+        <h1>tabla distinta</h1>
+
+        <div class=div-table>
+            <div class="div-table-row">
+                <div class="div-table-cell">Celda 1</div>
+                <div class="div-table-cell">Celda 2</div>
+                <div class="div-table-cell">Celda 3</div>
+            </div>
+            <div class="div-table-row">
+                <div class="div-table-cell">Celda 1</div>
+                <div class="div-table-cell">Celda 2</div>
+                <div class="div-table-cell">Celda 3</div>
+            </div>
+        </div>
+
+
+</body>
+</html>
